@@ -7,15 +7,12 @@ const AboutPage = () => {
       <div className="about__app">
          <h2>Применяемые технологии:</h2>
          <h4>
-            Верстка, логика: React
+            Верстка, логика: React/Redux
          </h4>
          <h4>
-            Стили: CSS
+            Стили: SCSS
          </h4>
-         <h4>
-            API: <a href="https://openweathermap.org/">openweather</a> 
-         </h4>
-         <h4><a href="https://github.com/Fyuyko/my_weather">Ссылка на репозиторий {svg}</a></h4>
+         <h4><a href="https://github.com/Fyuyko/my_menu">Ссылка на репозиторий {svg}</a></h4>
       </div>
    );
 };

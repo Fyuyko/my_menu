@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 
-import "./header.css";
+import "./header.scss";
 
 const Header = () => {
    return (
@@ -12,7 +12,7 @@ const Header = () => {
                      style={({isActive}) => ({color: isActive ? "#fff" : "#D6D6D6"})}
                      to="/"
                   >
-                     Main
+                     Главная
                   </NavLink>
                </li>
                <li>
@@ -20,7 +20,7 @@ const Header = () => {
                      style={({isActive}) => ({color: isActive ? "#fff" : "#D6D6D6"})}
                      to="/about"
                   >
-                     About
+                     О проекте
                   </NavLink>
                </li>
             </ul>

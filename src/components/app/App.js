@@ -1,19 +1,28 @@
-import DishesMenu from '../dishesMenu/DishesMenu';
-import FavoriteDishes from '../favoriteDishes/FavoriteDishes';
-import SearchDishes from '../searchDishes/SearchDishes';
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import AboutPage from "../aboutPage/AboutPage";
+
+import Footer from "../footer/Footer";
+import Header from "../header/Header";
+import MainPage from "../mainPage/MainPage";
+import Page404 from "../Page404/Page404";
 
 import './app.scss';
 
 function App() {
   return (
-    <div className="app">
-      <h1>Выберите понравившиеся блюда</h1>
-      <SearchDishes/>
-      <div className='container'>
-        <FavoriteDishes/>
-        <DishesMenu/>
-      </div>    
-    </div>
+    <Router>    
+      <div className='wrapper'>
+        <Header/>
+        <div className='app'>
+          <Routes>
+            <Route path='/' element={<MainPage/>}/>
+            <Route path='/about' element={<AboutPage/>}/>
+            <Route path="*" element={<Page404/>}/> 
+          </Routes>          
+        </div>       
+        <Footer/>
+      </div>     
+    </Router>    
   );
 }
 
