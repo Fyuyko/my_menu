@@ -1,0 +1,24 @@
+.favorite__button {
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   position: absolute;
+   top: 50%;
+   left: 25%;
+   display: none;
+
+   .heart-icon {
+      width: 15px;
+      margin-right: 5px;
+   }
+}
+
+.dish:hover .favorite__button {
+   display: inline-block;
+}
+
+.favorite__container .favorite__button {
+   top: 40%;
+   left: 12%;
+}
+

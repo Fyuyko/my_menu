@@ -1,0 +1,29 @@
+.dishes__header {
+   text-align: start;
+}
+
+.dishes__container {
+   display: flex;
+   justify-content: flex-start;
+   flex-wrap: wrap;  
+
+   .dish {
+      margin-right: 20px;
+      position: relative;
+
+      &:last-child {
+         margin: 0;
+      }
+   }
+
+   .dish__name {
+      margin: 0%;
+   }
+   
+   .dish-image {
+      width: 200px;
+   } 
+}
+
+
+
