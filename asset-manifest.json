@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my_menu/static/css/main.cf047246.css",
+    "main.js": "/my_menu/static/js/main.acc835a1.js",
+    "static/media/broken-heart.gif": "/my_menu/static/media/broken-heart.9038011cd2e911d12f7b.gif",
+    "static/media/heart.gif": "/my_menu/static/media/heart.d1d1ce876ef390ecb63c.gif",
+    "index.html": "/my_menu/index.html",
+    "main.cf047246.css.map": "/my_menu/static/css/main.cf047246.css.map",
+    "main.acc835a1.js.map": "/my_menu/static/js/main.acc835a1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf047246.css",
+    "static/js/main.acc835a1.js"
+  ]
+}
